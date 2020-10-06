@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!--Para insertar un video colocaremos la etiqueta de video y dentro de ella la direccion en donde encontraremos nuestro video dentro de nuestros archivos o una url externa
+            tambien tendremos un atributo llamado controls que no permitira mostrar dentro del video los controles de reproduccion y un atributo
+            llamado preload el cual nos permitira renderizar nuestro video desde que se carga la pagina, de esta forma el usuario no tendra que esperar a que el video cargue cuando lo quiera ver-->
+
+            <!--existe un atributo que nosotros podemos colocar en la SRC de nuestro video y es el tiempo en el que nosotros queremos que se comience a reproducir y a detener, para esto usamos # y los tiempos de inicio y fin, asi mismo,tenemos el atributo que nos
+            permitira unsar diferentes formatos de video, para esto pondremos la etiqueta source entre mi etiqueta de video y ahi colocaremos nuestro SRC y todos los que tengamos en diferentes formatos, la decision la tomara el navegador dependiendo de que formatos 
+            el pueda reproducir-->
+            <video controls preload="auto">
+            <source src="./VIDEO.mp4#t=78,120" >
+                <!--src="./VIDEO.m4v#t=78,120" -->
+                <!--src="./VIDEO.MWEB#t=78,120" -->
+
+            </video>
+        </section>
+    </main>
+</body>
+</html>
