@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autocompletar y require</title>
+</head>
+    
+  <main>
+<body>
+<form action="">
+   
+    <label for="nombre">
+        <span>Nombre</span>
+        <input type="text" name="nombre" id="nombre"  autocomplete="name" require> <!--Autocomplete nos permit autocompletar nuestro formulario con la informacion que el navegador ya posee del usuario-->
+    </label>
+    <label for="correo">
+        <span>Correo</span>
+        <input type="email"  name="correo" id="correo" autocomplete="email" require> <!--El atributo require nos permite decile al usuari que campos tiene que llenar obligatoriamente-->
+    </label>  
+     <label for="pais">
+        <span>Pais</span>
+        <input type="text"  name="pais" id="pais" autocomplete="country" require>
+    </label>  
+     <label for="cp">
+        <span>C.p</span>
+        <input type="text"  name="cp" id="cp" autocomplete="postal-code" require>
+    </label>
+<input type="submit">
+</form>
+  </main>
+
+</body>
+</html>
