@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!--La etiqueta form nos permite crear nuestra estructura para un formulario, se recomienda usar form en lugar de div y muchos inputs para generar buenas racticas-->
+    <form action=""> <!--En el atributo accion colocaremos la url de nuestro servidor a donde se enviara la informacion-->
+        <label for="nombre"> <!--el for debera de llevar como referencia nuestro id de la etiqueta input-->
+            <span>cual es tu nombre ?</span> <!--nos permite crear una etiqueta para nuestra entrada de texto -->
+            <input type="text" id="nombre" placeholder="Ej. Mane"> 
+        </label>
+        <label for="nacimiento"> 
+            <span>cual es tu fecha de nacimiento ?</span> 
+            <input type="date" id="nacimiento" placeholder="Ej. 14/12/2020"> 
+        </label>
+        <label for="Red_Social"> 
+            <span>cual es tu red social ?</span> 
+            <input type="text" id="Red_Social" placeholder="Ej. Jose Manuel VG"> 
+        </label>
+        <label for="Hora"> 
+            <span>Que hora es ?</span> 
+            <input type="time" id="Hora" placeholder="Ej. 20:00"> 
+        </label>
+    </form>
+</body>
+</html>
