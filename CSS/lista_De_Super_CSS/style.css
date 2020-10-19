@@ -1,0 +1,27 @@
+body{
+    background-color: papayawhip;
+}
+
+
+
+.titulo_General{
+    color: teal;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulos_categorias{
+    color: tomato;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listado{
+    color: goldenrod;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.img{
+    height: 120px;
+}
