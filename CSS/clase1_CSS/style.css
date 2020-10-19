@@ -1,0 +1,19 @@
+
+
+/*los estilos pueden ser aplicados directamente a las etiquetas que queremos modificar, en este caso a las etiquetas de parrafos */
+p{
+    color: gold;
+    font-size: 100px;
+}
+
+/*tambie se pueden generar las clases*/
+.parrafo{
+    color: green;
+}
+
+/*O bien podemos generar un ID*/
+
+#texto{
+    color: grey;
+    font-size: 30px;
+}
