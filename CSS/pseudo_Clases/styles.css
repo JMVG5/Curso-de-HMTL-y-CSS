@@ -1,0 +1,40 @@
+.main-nav{
+    margin-top: 30px; /*Nos delimita los margenes*/
+    list-style: none; /*Permite quitar los puntos en las listas*/
+    padding: 0%; /*Espacio interno en un contenedor*/
+    background-color: darkgoldenrod;
+}
+
+.main-nav__item{
+    display: inline-block; /*Agrega un color de fondo*/
+    }
+
+.main-nav__item a{ /*Esto nos permite ser especificos en CSS, aqui le estamos dando la indicacion de agregar estilos a todas las etiquetas a dentro de la clase main-div__intem*/
+color: white;
+padding: 20px;
+border-radius: 50px;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: oblique;
+
+}
+
+.main-nav__item a:hover{ /*Asi utilizamos una pseudo clase colocando el nombre de la clase principal seguido de la etiqueda a modificar dentro de esa clase y colocando una accion, en este caso un hover a esa etiqueta, lo que me permite cambiar de color cada que el mause se posiciona sobre el texto */
+color: black;
+}
+
+.main-nav__item a:active{ /*Active me permite saber si la opcion seleccionada esta activa*/
+color: darkred;
+}
+
+.main-nav__item a::after{ /*un pseudo elemento a diferencia de una pseudo clase se manda a llamar con cuatro puntos y nos permite agregar elementos al estilo de navegador, en este caso after sirve para colocar un signo o dato despues de algun contenido*/
+content:  " | ";
+}
+
+/*Las pseudoclases definen el estilo de un estado*/
+
+/*Los pseudo elementos definen el estilo de una parte especifica del elemento*/
+
+/*https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes*/
+
+/*https://developer.mozilla.org/es/docs/Web/CSS/Pseudoelementos*/
