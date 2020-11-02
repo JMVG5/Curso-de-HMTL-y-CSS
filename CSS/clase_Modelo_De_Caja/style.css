@@ -1,0 +1,16 @@
+/*El asterisco es un selector universal el cual nos permitira manipular los parametros que los navegadores tiene por default los cuales agregan estilos por nosotros a todas nuestras etiquetas
+EL contenido dentro nos servira para que nuestro modelo de caja se ajuste automaticamente a nuestra pantalla, evitando asi scroll laterales que dan mala imagen a nuestra pagina*/
+
+/*Es recomendable siempre reiniciar los valores por defecto para tener control total de nuestro modelo de caja*/
+*{
+box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px; /*Arriba, abajo, derecha a izquierda*/
+}
