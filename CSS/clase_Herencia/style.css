@@ -1,0 +1,13 @@
+/*HTML ya cuenta con valores por defautl los cuales les permiten a las etiquetas heredar*/
+/*Nosotros podemos modificar directamente estos valores para que el archivo HTML repete nuestros paramentros y todas las etiquetas los hereden cuando lo especifiquemos*/
+
+
+html{
+    font-size: 50%; /*Aqui le estamos diciendo a nuestro archivo que el tamaño de fuente sera del 50% tomando como referencia inicial los valores que ya vienen con nuestro archivo osea que si por default el tamaño es de 16px, con este comando ahora sera de 8px*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*HMTL sera el padre cercano que tenga el tamaño de fuente a manipular, los navegadores por si solos no saben que nosotros queremos realizar una herencia asi que para esto colocaremos el comando inherit el cual significa heredar, este heredara el tamaño de fuente del padre mas cercano, en este caso HTML, osea, los valores colocados en la parte de arriba*/
+h1{
+    font-size: inherit;
+}
